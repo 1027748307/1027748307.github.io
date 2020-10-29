@@ -41,13 +41,13 @@ def CDllBack():
   plt.grid(True)
   plt.stem(x1,y5)
   plt.show()
-B = tkinter.Button(top, text ="冲激", command = CAllBack)
 A = tkinter.Button(top, text ="周期", command = CBllBack)
+B = tkinter.Button(top, text ="冲激", command = CAllBack)
 C = tkinter.Button(top, text ="阶跃", command = CCllBack)
 D = tkinter.Button(top, text ="实指数", command = CDllBack)
- 
+
+A.pack() 
 B.pack()
-A.pack()
 C.pack()
 D.pack()
 top.mainloop()
